@@ -24,6 +24,9 @@ function numero(valor){
         console.log('O número é ímpar '+valor)
     }
 }
+function par(numeros){
+    return numero %2 ==0
+}
 
 
 somar();
@@ -33,3 +36,6 @@ multiplicar();
 
 soma(80,30)
 numero(25);
+
+const parImpar = par(3) ? 'É par' : 'É impar';
+console.log(parImpar);
